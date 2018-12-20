@@ -10,11 +10,11 @@ Adapting the [purescript-react-example](https://github.com/ethul/purescript-reac
 
     open http://localhost:4008
 
-## Compiile - Purescript
+## Compiile - PureScript
 
     npm run purs:compile
 
-## File watch - Purescript
+## File watch - PureScript
 
     npm run pscid
 
