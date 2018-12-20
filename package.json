@@ -1,10 +1,7 @@
 {
-  "name": "learn-purescript-react",
+  "name": "purescript-react-example-psc",
   "version": "1.0.0",
-  "description": "",
-  "directories": {
-    "test": "test"
-  },
+  "description": "Adapting purescript-react-example to use Psc-Package instead of Bower",
   "files": [],
   "scripts": {
     "purs:compile": "purs compile '.psc-package/psc-*/**/v*/src/**/*.purs' 'src/**/*.purs'",
@@ -13,9 +10,6 @@
     "webpack:watch": "webpack --mode development --progress --watch",
     "webpack-dev-server": "DEBUG=* webpack-dev-server --mode development --progress --inline --hot"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
